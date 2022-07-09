@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.2",
+    "express": "^4.17.3",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "jest": "^27.5.1",
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "apiTest": "./node_modules/.bin/mocha test --exit",
+    "test": "node_modules/.bin/jest"
+  }
+}
+

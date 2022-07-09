@@ -1,0 +1,265 @@
+creating handlers
+creating sku apis
+Server listening at http://localhost:3001
+
+
+  Test sku CRUD features
+    removing all skus
+      ✔ Getting SKUs (71ms)
+    post /api/sku/
+      ✔ FR 2.1 a -> Define a new SKU
+    get /api/skus
+      1) FR 2.3 -> List all SKUs
+    get /api/skus/:id
+      ✔ FR 2.4 -> Search a SKU
+    put /api/sku/:id
+      ✔ FR 2.1 b -> Modify an existing SKU
+    get /api/skus/:id
+      ✔ FR 2.4 -> Search a SKU
+    put /api/sku/:id/position
+      ✔ Changing SKU position passing its id
+    delete /api/sku/:id
+      2) FR 2.2 -> Delete a SKU
+    get /api/skus
+      3) FR 2.3 -> List all SKUs
+    get /api/skus/:id
+      ✔ FR 2.4 -> Search a SKU
+    post /api/sku/
+      ✔ FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      ✔ FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      4) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      5) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      6) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      7) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      8) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      9) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      10) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      11) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      12) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      ✔ FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      ✔ FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      13) FR 2.1 a -> Define a new SKU
+    post /api/sku/
+      14) FR 2.1 a -> Define a new SKU
+    get /api/skus/:id
+      ✔ FR 2.4 -> Search a SKU
+    get /api/skus/:id
+      ✔ FR 2.4 -> Search a SKU
+    removing all skus
+      ✔ Getting SKUs
+
+
+  14 passing (592ms)
+  14 failing
+
+  1) Test sku CRUD features
+       get /api/skus
+         FR 2.3 -> List all SKUs:
+
+      AssertionError: expected 121 to deeply equal 1
+      + expected - actual
+
+      -121
+      +1
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:83:43
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  2) Test sku CRUD features
+       delete /api/sku/:id
+         FR 2.2 -> Delete a SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 204 but got 404
+      + expected - actual
+
+      -404
+      +204
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:179:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  3) Test sku CRUD features
+       get /api/skus
+         FR 2.3 -> List all SKUs:
+
+      AssertionError: expected 121 to deeply equal +0
+      + expected - actual
+
+      -121
+      +0
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:83:43
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  4) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  5) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  6) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  7) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  8) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  9) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  10) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  11) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  12) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  13) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+  14) Test sku CRUD features
+       post /api/sku/
+         FR 2.1 a -> Define a new SKU:
+
+      AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 422 but got 201
+      + expected - actual
+
+      -201
+      +422
+      
+      at /Users/salvatore/Desktop/MAGISTRALE/Software Engineering/EZWH/EZWH/code/server/acceptanceTest/utils-sku.js:49:33
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+
+

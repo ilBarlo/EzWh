@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.2",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.16",
+    "mocha": "^9.2.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "apiTest": "./node_modules/.bin/mocha test --runInBand--timeout 10000 --exit > ./studentApiTestResult.txt",
+    "test": "node_modules/.bin/jest --runInBand --coverage > ./unitTestResult.txt",
+    "acceptanceTest": "npx mocha --runInBand --spec acceptanceTest/testEzWhAPI.js --reporter mochawesome --timeout 15000 --exit",
+    "totalcoverage": "./node_modules/.bin/nyc ./node_modules/.bin/mocha test --runInBand --timeout 10000 --exit"
+  }
+}
