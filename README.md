@@ -1,6 +1,8 @@
 # EzWh
 EzWh project for Web Applications I - PoliTo
 
+# Voto: 30
+
 EZWH is a software application to:
 
 - manage suppliers and restock orders;
